@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const HeaderContainer = styled.header`
 
 background: ${props => props.theme['gray-900']};
@@ -17,7 +18,7 @@ align-items: center;
 justify-content: space-between;
 `
 
-export const NewTransacionButton=styled.button`
+export const  NewTransactionButton=styled.button`
 height: 50px;
 border: 0;
 background: ${props=>props.theme['green-500']};
