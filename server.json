@@ -1,0 +1,29 @@
+{
+    "transactions":[
+        {
+            "id":1,
+            "description":"Desenvolvimento web",
+            "type":"income",
+            "category":"Venda", 
+            "price":12000,
+            "createdAt":"2025-03-18T21:55:14.875Z"
+        },
+        {
+            "id":2,
+            "description":"Hamburguer",
+            "type":"outcome",
+            "category":"alimentacao", 
+            "price":3000,
+            "createdAt":"2025-03-18T21:55:14.875Z"
+        }
+        ,
+        {
+            "id":3,
+            "description":"Web app",
+            "type":"income",
+            "category":"consultoria", 
+            "price":11000,
+            "createdAt":"2025-02-18T21:55:14.875Z"
+        }
+    ]
+}
