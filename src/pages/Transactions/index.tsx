@@ -1,7 +1,7 @@
 import { useContext} from "react";
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
-import { SearcForm } from "./components/SearchForm";
+import { SearchForm } from "./components/SearchForm";
 import { PriceHighlight, TransactionContainer, TransactionTable } from "./styles";
 import { TransactionsContext } from "../../context/TransactionsContext";
 import { dateFormatter, priceFormatter } from "../../utils/formatter";
@@ -17,7 +17,7 @@ export function Transactions() {
             <Header />
             <Summary />
             <TransactionContainer>
-                <SearcForm /> 
+                <SearchForm /> 
                 <TransactionTable>
                     <tbody>
                         {transactions.map(transaction =>{
